@@ -1,0 +1,182 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montagu+Slab:wght@300;400;500&family=Pacifico&family=Roboto:wght@300;500;900&family=Source+Sans+Pro:wght@200;300;400&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-family: 'Montagu Slab', serif;
+    font-weight: 300;
+    vertical-align: baseline;
+    text-decoration: none;
+    list-style: none;
+    
+}
+html, body, #home {
+    
+    overflow-x: hidden;
+}
+
+.divisor {
+    width: 2px;
+    background: #FFC9DF;
+    margin: 5px 15px;
+}
+
+nav.nav-bg{
+    padding: 15px 0px;
+    background: rgba(91,67.8,67.5,0.6);
+}
+.navbar-light .navbar-nav .nav-link{
+    color: white;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: white;
+}
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.5);
+    border-color:rgba(255, 255, 255, .5) ;
+}
+header a:hover{
+    text-decoration: unset;
+    
+}
+
+.btn{
+    padding: 5px 30px;
+    border-radius: 20px;
+}
+.meus-projetos{
+    background-color: #E8ADAC;
+    margin-left: 1.5rem;
+    padding: 5px 30px;
+    border-radius: 20px;
+}
+.meus-projetos a {
+    font-family: 'Pacifico', cursive;
+}
+
+.ver-mais{
+   background-color: #FFC9DF;
+   color: white;  
+   font-family: 'Pacifico', cursive;
+}
+.most-popular{
+    background-color: #1d1d1d;
+    padding: 15px 15px;
+    margin-bottom: 15px;
+    color: white;
+    font-size: 150%;
+
+}
+.most-popular:hover{
+    color: #FFC9DF; 
+    cursor: pointer;
+}
+
+.modelos-home{
+    
+    text-align: center;
+  
+}
+
+main section article div figure img{
+    width: 250px;
+    height: 250px;
+    border-radius: 280px;
+    
+}
+.redes{
+
+    margin-left:30px;
+}
+.redes a img{
+    width: 25px;
+    height: 25px;
+}
+.sobre{
+    text-align: center;
+    ;
+}
+.sobre img{
+    border-radius: 430px
+}
+.sobre p{
+    margin-left: auto;
+    margin-right: auto;
+}
+h3 {
+    font: normal normal 2em 'Pacifico', cursive;
+}
+
+/* Dispositivos extra small (telefones em modo retrato, com menos de 576px)*/
+@media (max-width: 575.98px) { 
+
+    .modelos-home{
+        margin-bottom: 20px;
+    }
+    footer {
+        text-align: center;
+    }
+    .meus-projetos{
+        display: block;
+       margin-left: auto;
+       margin-right: auto;
+    }
+    
+ }
+
+/* Dispositivos small (telefones em modo paisagem, com 576px ou mais)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .modelos-home{
+        margin-bottom: 20px;
+    }
+    footer {
+        text-align: center;
+    }
+}
+
+/* Dispositivos médios (tablets com 768px ou mais)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+}
+
+/* Dispositivos large (desktops com 992px ou mais)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+}
+
+/* Dispositivos extra large (desktops grandes com 1200px ou mais)*/
+@media (min-width: 1200px) { 
+
+    
+ }
+
+footer {
+    background: #343A40;
+    padding: 25px ;
+    color: #fff;
+    
+  }
+  
+  footer a {
+    color: #fff;
+  }
+  
+  footer a:hover {
+    color: #fff;
+  }
+  
+  footer h4 {
+    color: #FFC8BD;
+    font-size: 19px;
+  }
+  
+  footer ul li.ellipsis {
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
