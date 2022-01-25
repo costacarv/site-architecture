@@ -1,7 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montagu+Slab:wght@300;400;500&family=Pacifico&family=Roboto:wght@300;500;900&family=Source+Sans+Pro:wght@200;300;400&display=swap');
-
-
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Josefin+Sans:wght@200;500;700&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -21,7 +21,7 @@ html, body, #home {
 
 .divisor {
     width: 2px;
-    background: #FFC9DF;
+    background: #0a6b38;
     margin: 5px 15px;
 }
 
@@ -49,7 +49,7 @@ header a:hover{
     border-radius: 20px;
 }
 .meus-projetos{
-    background-color: #E8ADAC;
+    background-color: #496046;
     margin-left: 1.5rem;
     padding: 5px 30px;
     border-radius: 20px;
@@ -59,7 +59,7 @@ header a:hover{
 }
 
 .ver-mais{
-   background-color: #FFC9DF;
+   background-color: #88ba57;
    color: white;  
    font-family: 'Pacifico', cursive;
 }
@@ -71,8 +71,9 @@ header a:hover{
     font-size: 150%;
 
 }
+
 .most-popular:hover{
-    color: #FFC9DF; 
+    color: #0a6b38;
     cursor: pointer;
 }
 
@@ -88,6 +89,25 @@ main section article div figure img{
     border-radius: 280px;
     
 }
+
+#o-que-fazemos{
+    background-color: #a6c4ac;
+    padding-top: 10px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    
+}
+#o-que-fazemos h2{
+    text-align: center;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font: normal bold 2em 'Josefin Sans', sans-serif;
+}
+#o-que-fazemos h4{
+    font: normal normal 1.5em 'Josefin Sans', sans-serif;
+}
+
 .redes{
 
     margin-left:30px;
@@ -98,7 +118,7 @@ main section article div figure img{
 }
 .sobre{
     text-align: center;
-    ;
+    margin-bottom: 20px;
 }
 .sobre img{
     border-radius: 430px
@@ -107,10 +127,32 @@ main section article div figure img{
     margin-left: auto;
     margin-right: auto;
 }
-h3 {
+#sobre h3 {
     font: normal normal 2em 'Pacifico', cursive;
+     color: #0a6b38;
 }
 
+#depoimentos{
+    border-bottom: 20px;
+    background-color: #f2f2f2;
+}
+#depoimentos p{
+
+    text-align: center;
+    color: #7a7a7a;
+}
+.perfil-depoimento{
+    border-radius: 50px;
+}
+#depoimentos h3{
+ 
+    color: #a6c4ac;
+    font: normal bold 2em 'Indie Flower', cursive;
+    text-align: center;
+} 
+#depoimentos h6{
+    color: #7a7a7a;
+}
 /* Dispositivos extra small (telefones em modo retrato, com menos de 576px)*/
 @media (max-width: 575.98px) { 
 
@@ -170,7 +212,7 @@ footer {
   }
   
   footer h4 {
-    color: #FFC8BD;
+    color: #88ba57;
     font-size: 19px;
   }
   
